@@ -32,8 +32,8 @@ public class BasicArrayUtils {
         for(int index = stringArray.length - 1; index >= 0; index--) {
             rev[counter] = stringArray[index];
         counter++;
-            System.out.println("index: " + index);
-            System.out.println("stringArray[" + index + "]: " + stringArray[index]);
+           System.out.println("index: " + index);
+           System.out.println("stringArray[" + index + "]: " + stringArray[index]);
         }
         return rev;
    }
